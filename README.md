@@ -9,7 +9,6 @@
 - [Behance](https://www.behance.net/designylove)
 - [Dribble](https://dribbble.com/m4st3rmiau)
 - [Instagram](https://www.instagram.com/maoo.lopez/)
-</br>
 
 ## LIGHT MODE WITH FLUTTER
 <TABLE BORDER>
@@ -24,7 +23,6 @@
         <TD><img src="./screenshot/ig/ig-profile-light.png" alt="Profile-Light" width="200"/></TD>
 	</TR>
 </TABLE>
-</br>
 
 ## DARK MODE WITH FLUTTER
 <TABLE BORDER>
@@ -39,7 +37,6 @@
         <TD><img src="./screenshot/ig/ig-profile-dark.png" alt="Profile-Dark" width="200"/></TD>
 	</TR>
 </TABLE>
-</br>
 
 ## HEART ANIMATION WHEN I LIKE IT
 <TABLE BORDER>
