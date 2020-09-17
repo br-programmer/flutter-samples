@@ -9,17 +9,44 @@
 - [Behance](https://www.behance.net/designylove)
 - [Dribble](https://dribbble.com/m4st3rmiau)
 - [Instagram](https://www.instagram.com/maoo.lopez/)
+</br>
 
 ## LIGHT MODE WITH FLUTTER
-<img src="./screenshot/ig/ig-home-light.png" alt="Home-Light" width="200"/>
-<img src="./screenshot/ig/ig-search-light.png" alt="Search-Light" width="200"/>
-<img src="./screenshot/ig/ig-profile-light.png" alt="Profile-Light" width="200"/>
+<TABLE BORDER>
+    <TR>
+        <TH>HOME LIGHT</TH>
+        <TH>SEARCH LIGHT</TH>
+        <TH>PROFILE LIGHT</TH>
+    </TR>
+	<TR>
+		<TD><img src="./screenshot/ig/ig-home-light.png" alt="Home-Light" width="200"/></TD> 
+        <TD><img src="./screenshot/ig/ig-search-light.png" alt="Search-Light" width="200"/></TD> 
+        <TD><img src="./screenshot/ig/ig-profile-light.png" alt="Profile-Light" width="200"/></TD>
+	</TR>
+</TABLE>
+</br>
 
 ## DARK MODE WITH FLUTTER
-
-<img src="./screenshot/ig/ig-home-dark.png" alt="Home-Dark" width="200"/>
-<img src="./screenshot/ig/ig-search-dark.png" alt="Search-Dark" width="200"/>
-<img src="./screenshot/ig/ig-profile-dark.png" alt="Profile-Dark" width="200"/>
+<TABLE BORDER>
+    <TR>
+        <TH>HOME DARK</TH>
+        <TH>SEARCH DARK</TH>
+        <TH>PROFILE DARK</TH>
+    </TR>
+	<TR>
+		<TD><img src="./screenshot/ig/ig-home-dark.png" alt="Home-Dark" width="200"/></TD> 
+        <TD><img src="./screenshot/ig/ig-search-dark.png" alt="Search-Dark" width="200"/></TD> 
+        <TD><img src="./screenshot/ig/ig-profile-dark.png" alt="Profile-Dark" width="200"/></TD>
+	</TR>
+</TABLE>
+</br>
 
 ## HEART ANIMATION WHEN I LIKE IT
-<img src="./screenshot/ig/heart.gif" alt="Animation-Heart" width="200"/>
+<TABLE BORDER>
+    <TR>
+        <TH>HEART ANIMATION</TH>
+    </TR>
+	<TR>
+		<TD><img src="./screenshot/ig/heart.gif" alt="Animation-Heart" width="200"/></TD>
+	</TR>
+</TABLE>
