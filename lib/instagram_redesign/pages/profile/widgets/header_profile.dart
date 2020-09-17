@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_samples/instagram_redesign/utils/constant.dart';
+import 'package:flutter_samples/instagram_redesign/widgets/widgets.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class HeaderProfile extends StatelessWidget {
@@ -32,7 +33,7 @@ class HeaderProfile extends StatelessWidget {
                     'assets/images/instagram_redesign/add.svg',
                     color: Theme.of(context).textTheme.bodyText1.color,
                   ),
-                  const ImageProfile(),
+                  UserAvatar(image: 'assets/images/brayan.jpg', radius: MediaQuery.of(context).size.width * .12),
                   SvgPicture.asset(
                     'assets/images/instagram_redesign/chat.svg',
                     color: Theme.of(context).textTheme.bodyText1.color,
@@ -67,13 +68,13 @@ class HeaderProfile extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
-                MyPostFollowersFolowwing(count: 27, text: 'Post'),
-                MyPostFollowersFolowwing(count: 207, text: 'Seguidores'),
-                MyPostFollowersFolowwing(count: 1005, text: 'Seguidos'),
+                _MyPostFollowersFolowwing(count: 27, text: 'Post'),
+                _MyPostFollowersFolowwing(count: 207, text: 'Seguidores'),
+                _MyPostFollowersFolowwing(count: 1005, text: 'Seguidos'),
               ],
             ),
             const SizedBox(height: 15),
-            const ButtonFollow(),
+            const _ButtonFollow(),
           ],
         ),
       ),
@@ -81,32 +82,8 @@ class HeaderProfile extends StatelessWidget {
   }
 }
 
-class ImageProfile extends StatelessWidget {
-  const ImageProfile({Key key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      width: MediaQuery.of(context).size.width * .25,
-      height: MediaQuery.of(context).size.width * .25,
-      decoration: BoxDecoration(
-        shape: BoxShape.circle,
-        gradient: LinearGradient(
-          colors: [InstagramColors.pink, InstagramColors.purple],
-          begin: Alignment.topCenter,
-          end: Alignment.bottomCenter,
-        ),
-      ),
-      padding: EdgeInsets.all(3),
-      child: ClipOval(
-        child: Image.asset('assets/images/brayan.jpg', fit: BoxFit.cover),
-      ),
-    );
-  }
-}
-
-class ButtonFollow extends StatelessWidget {
-  const ButtonFollow({Key key}) : super(key: key);
+class _ButtonFollow extends StatelessWidget {
+  const _ButtonFollow({Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -128,8 +105,8 @@ class ButtonFollow extends StatelessWidget {
   }
 }
 
-class MyPostFollowersFolowwing extends StatelessWidget {
-  const MyPostFollowersFolowwing({Key key, @required this.count, @required this.text}) : super(key: key);
+class _MyPostFollowersFolowwing extends StatelessWidget {
+  const _MyPostFollowersFolowwing({Key key, @required this.count, @required this.text}) : super(key: key);
   final int count;
   final String text;
 

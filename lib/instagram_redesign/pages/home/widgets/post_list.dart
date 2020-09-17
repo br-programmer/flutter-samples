@@ -14,7 +14,7 @@ class PostList extends StatelessWidget {
       padding: EdgeInsets.only(top: 5),
       sliver: SliverList(
         delegate: SliverChildBuilderDelegate(
-          (_, i) => PostItem(post: posts[i]),
+          (_, i) => _PostItem(post: posts[i]),
           childCount: posts.length,
         ),
       ),
@@ -22,8 +22,8 @@ class PostList extends StatelessWidget {
   }
 }
 
-class PostItem extends StatelessWidget {
-  const PostItem({Key key, @required this.post}) : super(key: key);
+class _PostItem extends StatelessWidget {
+  const _PostItem({Key key, @required this.post}) : super(key: key);
 
   final Post post;
 
@@ -82,7 +82,7 @@ class PostItem extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 10),
-          ImagePost(countLikes: post.countLikes, postImages: post.postImages),
+          _ImagePost(countLikes: post.countLikes, postImages: post.postImages),
           Padding(
             padding: const EdgeInsets.fromLTRB(5, 15, 5, 5),
             child: Column(
@@ -129,16 +129,16 @@ class PostItem extends StatelessWidget {
   }
 }
 
-class ImagePost extends StatefulWidget {
-  const ImagePost({Key key, @required this.postImages, @required this.countLikes}) : super(key: key);
+class _ImagePost extends StatefulWidget {
+  const _ImagePost({Key key, @required this.postImages, @required this.countLikes}) : super(key: key);
   final List<String> postImages;
   final int countLikes;
 
   @override
-  _ImagePostState createState() => _ImagePostState();
+  __ImagePostState createState() => __ImagePostState();
 }
 
-class _ImagePostState extends State<ImagePost> {
+class __ImagePostState extends State<_ImagePost> {
   PageController _controller;
 
   final _isFavorite = ValueNotifier<bool>(false);
@@ -155,12 +155,17 @@ class _ImagePostState extends State<ImagePost> {
     super.dispose();
   }
 
+  void showHeart() async {
+    _isFavorite.value = true;
+    await Future.delayed(Duration(milliseconds: 600));
+    _isFavorite.value = false;
+  }
+
   @override
   Widget build(BuildContext context) {
     String countLikes = widget.countLikes.toString();
     if (countLikes.length > 3)
       countLikes = '${countLikes.substring(0, 1)},${countLikes.substring(1, countLikes.length)}';
-
     return Expanded(
       child: ClipRRect(
         borderRadius: BorderRadius.circular(15),
@@ -170,7 +175,7 @@ class _ImagePostState extends State<ImagePost> {
               controller: _controller,
               itemCount: widget.postImages.length,
               itemBuilder: (_, i) => GestureDetector(
-                onDoubleTap: () => _isFavorite.value = !_isFavorite.value,
+                onDoubleTap: showHeart,
                 child: Image.asset(widget.postImages[i], fit: BoxFit.cover),
               ),
             ),
@@ -248,21 +253,26 @@ class _ImagePostState extends State<ImagePost> {
                 ),
               ),
             ),
-            // Positioned.fill(
-            //   child: ValueListenableBuilder<bool>(
-            //     valueListenable: _isFavorite,
-            //     builder: (_, value, __) => value
-            //         ? Transform.scale(
-            //             scale: 1.2,
-            //             child: Icon(
-            //               Icons.favorite,
-            //               color: InstagramColors.cardLight,
-            //               size: 80.0,
-            //             ),
-            //           )
-            //         : SizedBox.shrink(),
-            //   ),
-            // ),
+            Positioned.fill(
+              child: ValueListenableBuilder<bool>(
+                valueListenable: _isFavorite,
+                builder: (_, value, __) => value
+                    ? TweenAnimationBuilder(
+                        tween: Tween(begin: .8, end: 1.4),
+                        duration: const Duration(milliseconds: 400),
+                        curve: Curves.elasticOut,
+                        builder: (_, animation, __) => Transform.scale(
+                          scale: animation,
+                          child: Icon(
+                            Icons.favorite,
+                            size: MediaQuery.of(context).size.width * .2,
+                            color: InstagramColors.pink,
+                          ),
+                        ),
+                      )
+                    : SizedBox.shrink(),
+              ),
+            ),
           ],
         ),
       ),

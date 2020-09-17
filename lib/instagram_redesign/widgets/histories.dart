@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_samples/instagram_redesign/models/history.dart';
 import 'package:flutter_samples/instagram_redesign/utils/constant.dart';
+import 'package:flutter_samples/instagram_redesign/widgets/user_avatar.dart';
 
 class Histories extends StatelessWidget {
   const Histories({Key key, @required this.histories, this.isDestacadas = false}) : super(key: key);
@@ -18,7 +19,7 @@ class Histories extends StatelessWidget {
             padding: EdgeInsets.only(left: 20),
             itemCount: histories.length,
             scrollDirection: Axis.horizontal,
-            itemBuilder: (_, i) => ItemHistory(isFirst: i == 0, history: histories[i], isDestacadas: isDestacadas),
+            itemBuilder: (_, i) => _ItemHistory(isFirst: i == 0, history: histories[i], isDestacadas: isDestacadas),
           ),
         ),
       ),
@@ -26,8 +27,8 @@ class Histories extends StatelessWidget {
   }
 }
 
-class ItemHistory extends StatelessWidget {
-  const ItemHistory({Key key, this.isFirst = false, this.history, this.isDestacadas}) : super(key: key);
+class _ItemHistory extends StatelessWidget {
+  const _ItemHistory({Key key, this.isFirst = false, this.history, this.isDestacadas}) : super(key: key);
   final bool isFirst;
   final bool isDestacadas;
   final History history;
@@ -47,25 +48,7 @@ class ItemHistory extends StatelessWidget {
                 alignment: Alignment.center,
                 overflow: Overflow.visible,
                 children: [
-                  Container(
-                    width: 70,
-                    height: 70,
-                    decoration: BoxDecoration(
-                      shape: BoxShape.circle,
-                      color: isFirst ? Theme.of(context).accentColor : null,
-                      gradient: !isFirst
-                          ? LinearGradient(
-                              colors: [InstagramColors.pink, InstagramColors.purple],
-                              begin: Alignment.topCenter,
-                              end: Alignment.bottomCenter,
-                            )
-                          : null,
-                    ),
-                    padding: EdgeInsets.all(2),
-                    child: ClipOval(
-                      child: Image.asset(history.image, fit: BoxFit.cover),
-                    ),
-                  ),
+                  UserAvatar(isFirst: isFirst, image: history.image),
                   if (isFirst)
                     Positioned(
                       left: 0,

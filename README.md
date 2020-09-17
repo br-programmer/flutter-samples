@@ -1,16 +1,25 @@
-# flutter_samples
+# FLUTTER SAMPLES
 
-A new Flutter project.
+## 01 - INSTAGRAM REDESING BY MAURICIO LOPEZ
+- ### [INSPIRATION](https://dribbble.com/shots/14194596-Instagram-Redesign-UI?fbclid=IwAR2Db-jYEEFIp5O55wHLjylZ-vpwnAOgqCTEoWjDxuFoAuFr8Vu4htS2YYA)
 
-## Getting Started
+<img src="./screenshot/ig/ig-redesing-by-mao.jpg" alt="Inspiration" width="400"/>
 
-This project is a starting point for a Flutter application.
+### CONTACT MAURICIO LOPEZ
+- [Behance](https://www.behance.net/designylove)
+- [Dribble](https://dribbble.com/m4st3rmiau)
+- [Instagram](https://www.instagram.com/maoo.lopez/)
 
-A few resources to get you started if this is your first Flutter project:
+## LIGHT MODE WITH FLUTTER
+<img src="./screenshot/ig/ig-home-light.png" alt="Home-Light" width="200"/>
+<img src="./screenshot/ig/ig-search-light.png" alt="Search-Light" width="200"/>
+<img src="./screenshot/ig/ig-profile-light.png" alt="Profile-Light" width="200"/>
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## DARK MODE WITH FLUTTER
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src="./screenshot/ig/ig-home-dark.png" alt="Home-Dark" width="200"/>
+<img src="./screenshot/ig/ig-search-dark.png" alt="Search-Dark" width="200"/>
+<img src="./screenshot/ig/ig-profile-dark.png" alt="Profile-Dark" width="200"/>
+
+## HEART ANIMATION WHEN I LIKE IT
+<img src="./screenshot/ig/heart.gif" alt="Animation-Heart" width="200"/>

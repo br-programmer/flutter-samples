@@ -17,7 +17,7 @@ class SearchCategoryList extends StatelessWidget {
             padding: EdgeInsets.only(left: 20),
             itemCount: searchCategories.length,
             scrollDirection: Axis.horizontal,
-            itemBuilder: (_, i) => ItemSearchCategory(searchCategory: searchCategories[i]),
+            itemBuilder: (_, i) => _ItemSearchCategory(searchCategory: searchCategories[i]),
           ),
         ),
       ),
@@ -25,8 +25,8 @@ class SearchCategoryList extends StatelessWidget {
   }
 }
 
-class ItemSearchCategory extends StatelessWidget {
-  const ItemSearchCategory({Key key, this.searchCategory}) : super(key: key);
+class _ItemSearchCategory extends StatelessWidget {
+  const _ItemSearchCategory({Key key, this.searchCategory}) : super(key: key);
   final SearchCategory searchCategory;
 
   @override
