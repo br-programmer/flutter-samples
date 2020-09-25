@@ -28,4 +28,18 @@ flutter:
   assets:
     - assets/images/brayan.jpg
     - assets/images/instagram_redesign/
+    - assets/images/nike_shoes/
+
+  fonts:
+    - family: Orbitron
+      fonts:
+        - asset: assets/fonts/Orbitron-Black.ttf
+        - asset: assets/fonts/Orbitron-Bold.ttf
+        - asset: assets/fonts/Orbitron-ExtraBold.ttf
+        - asset: assets/fonts/Orbitron-Medium.ttf
+        - asset: assets/fonts/Orbitron-Regular.ttf
+        - asset: assets/fonts/Orbitron-SemiBold.ttf
+    - family: Uniwars
+      fonts:
+        - asset: assets/fonts/Uniwars-Regular.ttf
 

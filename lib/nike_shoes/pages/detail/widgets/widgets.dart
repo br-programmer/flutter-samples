@@ -1,0 +1,10 @@
+export 'package:flutter_samples/nike_shoes/pages/detail/widgets/back.dart';
+export 'package:flutter_samples/nike_shoes/pages/detail/widgets/new_and_list_images.dart';
+export 'package:flutter_samples/nike_shoes/pages/detail/widgets/card_list_images.dart';
+export 'package:flutter_samples/nike_shoes/pages/detail/widgets/sizes_shoe.dart';
+export 'package:flutter_samples/nike_shoes/pages/detail/widgets/description_shoe.dart';
+export 'package:flutter_samples/nike_shoes/pages/detail/widgets/details_perfomance.dart';
+export 'package:flutter_samples/nike_shoes/pages/detail/widgets/detail_top.dart';
+export 'package:flutter_samples/nike_shoes/pages/detail/widgets/quantity_botton_add.dart';
+export 'package:flutter_samples/nike_shoes/pages/detail/widgets/detail_boton.dart';
+export 'package:flutter_samples/nike_shoes/pages/detail/widgets/content.dart';
