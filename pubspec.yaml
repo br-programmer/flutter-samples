@@ -16,6 +16,8 @@ dependencies:
   flutter_svg: ^0.18.1
   provider:
   flutter_staggered_grid_view: ^0.3.2
+  google_fonts: ^1.1.0
+  flutter_icons: ^1.1.0
 
 dev_dependencies:
   flutter_test:
@@ -29,6 +31,8 @@ flutter:
     - assets/images/brayan.jpg
     - assets/images/instagram_redesign/
     - assets/images/nike_shoes/
+    - assets/images/smart_parking/
+    - assets/images/space_concept/
 
   fonts:
     - family: Orbitron

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_samples/instagram_redesign/custom_painter/page_indicator_painter.dart';
+import 'package:flutter_samples/custom_painter/page_indicator_painter.dart';
 import 'package:flutter_samples/instagram_redesign/models/post.dart';
 import 'package:flutter_samples/instagram_redesign/utils/constant.dart';
 import 'package:flutter_svg/flutter_svg.dart';
