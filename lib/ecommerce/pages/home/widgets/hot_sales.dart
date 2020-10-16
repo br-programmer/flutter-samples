@@ -67,7 +67,7 @@ class _DetailHotSales extends StatelessWidget {
                 ),
                 const SizedBox(height: 15),
                 AnimatedSwitcher(
-                  duration: const Duration(milliseconds: 150),
+                  duration: const Duration(milliseconds: 350),
                   child: Column(
                     key: Key(hotSales[index].name),
                     crossAxisAlignment: CrossAxisAlignment.start,

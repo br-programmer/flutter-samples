@@ -16,7 +16,7 @@ class PageViewBLoC extends ChangeNotifier {
       nextPage = 0;
     }
     await Future.delayed(const Duration(seconds: 5));
-    await this._pageController.animateToPage(nextPage, duration: const Duration(milliseconds: 100), curve: Curves.ease);
+    await this._pageController.animateToPage(nextPage, duration: const Duration(milliseconds: 500), curve: Curves.ease);
     this._init();
   }
 }
