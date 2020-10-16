@@ -1,7 +1,5 @@
 import 'dart:ui' show Color;
 
-import 'package:flutter/material.dart';
-
 class InstagramColors {
   static final Color blue = Color(0xFF515BD4);
   static final Color purple = Color(0xFF8134AF);

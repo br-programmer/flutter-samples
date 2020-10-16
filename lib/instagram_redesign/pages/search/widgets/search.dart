@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_samples/instagram_redesign/utils/constant.dart';
-import 'package:flutter_samples/instagram_redesign/widgets/sliver_header_delegate.dart' show SliverCustomHeaderDelegate;
+import 'package:flutter_samples/widgets/sliver_header_delegate.dart' show SliverCustomHeaderDelegate;
 import 'package:flutter_svg/flutter_svg.dart';
 
 class Search extends StatelessWidget {
