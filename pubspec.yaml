@@ -21,6 +21,7 @@ dependencies:
   percent_indicator: ^2.1.7+4
   intl: ^0.16.1
   flutter_sound_lite: ^6.2.0
+  flutter_shapes: ^0.2.1
 
 dev_dependencies:
   flutter_test:
@@ -41,6 +42,7 @@ flutter:
     - assets/images/find_home/
     - assets/images/music_app/
     - assets/images/ecommerce/
+    - assets/images/radio_app/
 
   fonts:
     - family: Orbitron
@@ -57,4 +59,7 @@ flutter:
     - family: Avenir
       fonts:
         - asset: assets/fonts/avenir.otf
+    - family: SFDisplay
+      fonts:
+        - asset: assets/fonts/sf_display.ttf
 

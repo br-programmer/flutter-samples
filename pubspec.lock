@@ -97,6 +97,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.1.0"
+  flutter_shapes:
+    dependency: "direct main"
+    description:
+      name: flutter_shapes
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.2.1"
   flutter_sound_lite:
     dependency: "direct main"
     description:
