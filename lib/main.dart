@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_samples/home.dart';
-import 'package:flutter_samples/radio_app/radio_app.dart';
 import 'package:intl/date_symbol_data_local.dart';
 
 void main() async {
   await initializeDateFormatting();
-  runApp(RadioApp());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {

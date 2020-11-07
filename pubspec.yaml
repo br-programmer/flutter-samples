@@ -22,6 +22,7 @@ dependencies:
   intl: ^0.16.1
   flutter_sound_lite: ^6.2.0
   flutter_shapes: ^0.2.1
+  bezier_chart: ^1.0.17+1
 
 dev_dependencies:
   flutter_test:
@@ -43,6 +44,7 @@ flutter:
     - assets/images/music_app/
     - assets/images/ecommerce/
     - assets/images/radio_app/
+    - assets/images/salud/
 
   fonts:
     - family: Orbitron
@@ -62,4 +64,14 @@ flutter:
     - family: SFDisplay
       fonts:
         - asset: assets/fonts/sf_display.ttf
+    - family: Aeonik
+      fonts:
+        - asset: assets/fonts/aeonik/Aeonik-Black.ttf
+          weight: 900
+        - asset: assets/fonts/aeonik/Aeonik-Bold.ttf
+          weight: 800
+        - asset: assets/fonts/aeonik/Aeonik-Medium.ttf
+          weight: 600
+        - asset: assets/fonts/aeonik/Aeonik-Regular.ttf
+          weight: 400
 

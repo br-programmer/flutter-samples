@@ -6,6 +6,8 @@ import 'package:flutter_samples/find_home/find_home.dart';
 import 'package:flutter_samples/instagram_redesign/instagram_redesign.dart';
 import 'package:flutter_samples/music_app/music_app.dart';
 import 'package:flutter_samples/nike_shoes/nicke_shoes.dart';
+import 'package:flutter_samples/radio_app/radio_app.dart';
+import 'package:flutter_samples/salud_financiera/salud_financiera.dart';
 import 'package:flutter_samples/smart_parking/smart_parging.dart';
 import 'package:flutter_samples/space_concept/space_concept.dart';
 import 'package:flutter_samples/super_cines_redesign/super_cines_redesign.dart';
@@ -80,6 +82,18 @@ class HomePage extends StatelessWidget {
                 color: Theme.of(context).primaryColor,
                 child: Text('Ecommerce'),
                 onPressed: () => _handlerToPage(context, Ecommerce()),
+              ),
+              const SizedBox(height: 20),
+              CupertinoButton(
+                color: Theme.of(context).primaryColor,
+                child: Text('RadioApp'),
+                onPressed: () => _handlerToPage(context, RadioApp()),
+              ),
+              const SizedBox(height: 20),
+              CupertinoButton(
+                color: Theme.of(context).primaryColor,
+                child: Text('Salud-Financiera'),
+                onPressed: () => _handlerToPage(context, SaludFinaciera()),
               ),
             ],
           ),
