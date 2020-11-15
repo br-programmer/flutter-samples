@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_samples/diet_fast/diet_fast.dart';
 import 'package:flutter_samples/home.dart';
 import 'package:intl/date_symbol_data_local.dart';
 
 void main() async {
   await initializeDateFormatting();
-  runApp(MyApp());
+  runApp(DietFast());
 }
 
 class MyApp extends StatelessWidget {
