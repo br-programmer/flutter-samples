@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_samples/instagram_redesign/pages/search/widgets/widgets.dart' show SliverCustomHeaderDelegate;
+import 'package:flutter_samples/widgets/sliver_header_delegate.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class Explore extends StatelessWidget {

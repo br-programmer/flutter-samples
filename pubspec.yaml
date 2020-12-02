@@ -45,6 +45,10 @@ flutter:
     - assets/images/ecommerce/
     - assets/images/radio_app/
     - assets/images/salud/
+    - assets/linkedin/icons/
+    - assets/linkedin/images/
+    - assets/linkedin/images/users/
+    - assets/linkedin/images/posts/
 
   fonts:
     - family: Orbitron

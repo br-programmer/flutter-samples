@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_samples/instagram_redesign/pages/search/widgets/widgets.dart';
 import 'package:flutter_samples/instagram_redesign/utils/constant.dart';
+import 'package:flutter_samples/widgets/sliver_header_delegate.dart';
 
 class SelectCategory extends StatelessWidget {
   final _selected = ValueNotifier<int>(0);

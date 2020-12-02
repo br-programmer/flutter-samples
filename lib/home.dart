@@ -4,6 +4,7 @@ import 'package:flutter_samples/diet_fast/diet_fast.dart';
 import 'package:flutter_samples/ecommerce/ecommerce.dart';
 import 'package:flutter_samples/find_home/find_home.dart';
 import 'package:flutter_samples/instagram_redesign/instagram_redesign.dart';
+import 'package:flutter_samples/linkedin_redesign/linkedin_redesign.dart';
 import 'package:flutter_samples/music_app/music_app.dart';
 import 'package:flutter_samples/nike_shoes/nicke_shoes.dart';
 import 'package:flutter_samples/radio_app/radio_app.dart';
@@ -21,82 +22,83 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text('Flutter Examples - BrProgrammer')),
-      body: SingleChildScrollView(
-        physics: BouncingScrollPhysics(),
-        child: Container(
-          height: MediaQuery.of(context).size.height,
-          padding: EdgeInsets.all(10),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              CupertinoButton(
-                color: Theme.of(context).primaryColor,
-                child: Text('Instagram-Redesign'),
-                onPressed: () => _handlerToPage(context, InstagramRedesign()),
-              ),
-              const SizedBox(height: 20),
-              CupertinoButton(
-                color: Theme.of(context).primaryColor,
-                child: Text('Nike-Shop'),
-                onPressed: () => _handlerToPage(context, NikeShoes()),
-              ),
-              const SizedBox(height: 20),
-              CupertinoButton(
-                color: Theme.of(context).primaryColor,
-                child: Text('Smart-Parking'),
-                onPressed: () => _handlerToPage(context, SmartParking()),
-              ),
-              const SizedBox(height: 20),
-              CupertinoButton(
-                color: Theme.of(context).primaryColor,
-                child: Text('Space-Concept'),
-                onPressed: () => _handlerToPage(context, SpaceConcept()),
-              ),
-              const SizedBox(height: 20),
-              CupertinoButton(
-                color: Theme.of(context).primaryColor,
-                child: Text('Diet-Fast'),
-                onPressed: () => _handlerToPage(context, DietFast()),
-              ),
-              const SizedBox(height: 20),
-              CupertinoButton(
-                color: Theme.of(context).primaryColor,
-                child: Text('Super-Cines-Redesign'),
-                onPressed: () => _handlerToPage(context, SuperCinesRedesign()),
-              ),
-              const SizedBox(height: 20),
-              CupertinoButton(
-                color: Theme.of(context).primaryColor,
-                child: Text('Find-Home'),
-                onPressed: () => _handlerToPage(context, FindHome()),
-              ),
-              const SizedBox(height: 20),
-              CupertinoButton(
-                color: Theme.of(context).primaryColor,
-                child: Text('Music-App'),
-                onPressed: () => _handlerToPage(context, MusicApp()),
-              ),
-              const SizedBox(height: 20),
-              CupertinoButton(
-                color: Theme.of(context).primaryColor,
-                child: Text('Ecommerce'),
-                onPressed: () => _handlerToPage(context, Ecommerce()),
-              ),
-              const SizedBox(height: 20),
-              CupertinoButton(
-                color: Theme.of(context).primaryColor,
-                child: Text('RadioApp'),
-                onPressed: () => _handlerToPage(context, RadioApp()),
-              ),
-              const SizedBox(height: 20),
-              CupertinoButton(
-                color: Theme.of(context).primaryColor,
-                child: Text('Salud-Financiera'),
-                onPressed: () => _handlerToPage(context, SaludFinaciera()),
-              ),
-            ],
-          ),
+      body: Padding(
+        padding: EdgeInsets.all(10),
+        child: ListView(
+          physics: BouncingScrollPhysics(),
+          children: [
+            CupertinoButton(
+              color: Theme.of(context).primaryColor,
+              child: Text('Instagram-Redesign'),
+              onPressed: () => _handlerToPage(context, InstagramRedesign()),
+            ),
+            const SizedBox(height: 20),
+            CupertinoButton(
+              color: Theme.of(context).primaryColor,
+              child: Text('Nike-Shop'),
+              onPressed: () => _handlerToPage(context, NikeShoes()),
+            ),
+            const SizedBox(height: 20),
+            CupertinoButton(
+              color: Theme.of(context).primaryColor,
+              child: Text('Smart-Parking'),
+              onPressed: () => _handlerToPage(context, SmartParking()),
+            ),
+            const SizedBox(height: 20),
+            CupertinoButton(
+              color: Theme.of(context).primaryColor,
+              child: Text('Space-Concept'),
+              onPressed: () => _handlerToPage(context, SpaceConcept()),
+            ),
+            const SizedBox(height: 20),
+            CupertinoButton(
+              color: Theme.of(context).primaryColor,
+              child: Text('Diet-Fast'),
+              onPressed: () => _handlerToPage(context, DietFast()),
+            ),
+            const SizedBox(height: 20),
+            CupertinoButton(
+              color: Theme.of(context).primaryColor,
+              child: Text('Super-Cines-Redesign'),
+              onPressed: () => _handlerToPage(context, SuperCinesRedesign()),
+            ),
+            const SizedBox(height: 20),
+            CupertinoButton(
+              color: Theme.of(context).primaryColor,
+              child: Text('Find-Home'),
+              onPressed: () => _handlerToPage(context, FindHome()),
+            ),
+            const SizedBox(height: 20),
+            CupertinoButton(
+              color: Theme.of(context).primaryColor,
+              child: Text('Music-App'),
+              onPressed: () => _handlerToPage(context, MusicApp()),
+            ),
+            const SizedBox(height: 20),
+            CupertinoButton(
+              color: Theme.of(context).primaryColor,
+              child: Text('Ecommerce'),
+              onPressed: () => _handlerToPage(context, Ecommerce()),
+            ),
+            const SizedBox(height: 20),
+            CupertinoButton(
+              color: Theme.of(context).primaryColor,
+              child: Text('RadioApp'),
+              onPressed: () => _handlerToPage(context, RadioApp()),
+            ),
+            const SizedBox(height: 20),
+            CupertinoButton(
+              color: Theme.of(context).primaryColor,
+              child: Text('Salud-Financiera'),
+              onPressed: () => _handlerToPage(context, SaludFinaciera()),
+            ),
+            const SizedBox(height: 20),
+            CupertinoButton(
+              color: Theme.of(context).primaryColor,
+              child: Text('LinkedIn-Redesign'),
+              onPressed: () => _handlerToPage(context, LinkedInRedesign()),
+            ),
+          ],
         ),
       ),
     );
