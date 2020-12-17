@@ -1,9 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_samples/animation/home_animations.dart';
-import 'package:flutter_samples/apps/home_apps.dart';
+import 'package:flutter_samples/animation/circle_three_loading/circle_three_loading.dart';
+import 'package:flutter_samples/animation/motion_loading/motion_loading.dart';
 
-class HomePage extends StatelessWidget {
+class HomeAnimationsPage extends StatelessWidget {
   void _handlerToPage(BuildContext context, Widget child) {
     Navigator.push(context, MaterialPageRoute(builder: (_) => child));
   }
@@ -11,23 +11,23 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Flutter Examples - BrProgrammer')),
+      appBar: AppBar(title: Text('Custom Animations - BrProgrammer'), centerTitle: true),
       body: Padding(
-        padding: EdgeInsets.all(10),
+        padding: const EdgeInsets.all(10),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             CupertinoButton(
               color: Theme.of(context).primaryColor,
-              child: Text('Apps'),
-              onPressed: () => _handlerToPage(context, HomeAppsPage()),
+              child: Text('Circle Trhee Loading'),
+              onPressed: () => _handlerToPage(context, CircleThreeLoading()),
             ),
             const SizedBox(height: 10),
             CupertinoButton(
               color: Theme.of(context).primaryColor,
-              child: Text('Animations'),
-              onPressed: () => _handlerToPage(context, HomeAnimationsPage()),
+              child: Text('Motion Loading'),
+              onPressed: () => _handlerToPage(context, MotionLoading()),
             ),
             const SizedBox(height: 10),
           ],

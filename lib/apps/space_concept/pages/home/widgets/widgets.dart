@@ -1,0 +1,10 @@
+export 'package:flutter_samples/apps/space_concept/pages/home/widgets/my_botton_navigation.dart';
+export 'package:flutter_samples/apps/space_concept/pages/home/widgets/custom_appbar.dart';
+export 'package:flutter_samples/apps/space_concept/pages/home/widgets/search.dart';
+export 'package:flutter_samples/apps/space_concept/pages/home/widgets/name_planets.dart';
+export 'package:flutter_samples/apps/space_concept/pages/home/widgets/detail_planet.dart';
+export 'package:flutter_samples/apps/space_concept/pages/home/widgets/back.dart';
+export 'package:flutter_samples/apps/space_concept/pages/home/widgets/rounded.dart';
+export 'package:flutter_samples/apps/space_concept/pages/home/widgets/explore.dart';
+export 'package:flutter_samples/apps/space_concept/pages/home/widgets/imagen_planet.dart';
+export 'package:flutter_samples/apps/space_concept/pages/home/widgets/imagen_planet_explored.dart';
