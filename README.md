@@ -188,6 +188,8 @@
 	</TR>
 </TABLE>
 
+## [VIDEO](https://www.youtube.com/watch?v=Sdq7k4dAsxY)
+
 ## 07 - APP RENT BY MAURICIO LOPEZ
 - ### [INSPIRATION](https://dribbble.com/shots/14331428-App-Rent-Concept)
 
@@ -238,6 +240,8 @@
 		<TD><img src="./screenshot/ms/ms-player.png" alt="Player" width="200"/></TD> 
 	</TR>
 </TABLE>
+
+## [VIDEO](https://www.youtube.com/watch?v=w4DouN-5du8)
 
 ## 09 - ECOMMERCE BY MAURICIO LOPEZ
 - ### [INSPIRATION](https://dribbble.com/shots/14386743-Ecommerce-Concept-Design)
