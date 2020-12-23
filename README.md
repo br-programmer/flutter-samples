@@ -1,5 +1,22 @@
 # FLUTTER SAMPLES
 
+## ANIMATIONS
+
+<TABLE BORDER>
+    <TR>
+        <TH style="text-align:center">CIRCLE THREE LOADING</TH>
+        <TH style="text-align:center">MOTION LOADING</TH>
+    </TR>
+	<TR>
+		<TD><img src="./screenshot/loading/circle_three.gif" alt="Home-Light" width="200"/></TD> 
+        <TD><img src="./screenshot/loading/motion.gif" alt="Search-Light" width="200"/></TD>
+	</TR>
+</TABLE>
+
+### [INSPIRATION MOTION LOADING](https://www.youtube.com/watch?v=jqFo80P92jw)
+
+
+## APPS
 ## 01 - INSTAGRAM REDESING BY MAURICIO LOPEZ
 - ### [INSPIRATION](https://dribbble.com/shots/14194596-Instagram-Redesign-UI?fbclid=IwAR2Db-jYEEFIp5O55wHLjylZ-vpwnAOgqCTEoWjDxuFoAuFr8Vu4htS2YYA)
 
@@ -13,9 +30,9 @@
 ## LIGHT MODE WITH FLUTTER
 <TABLE BORDER>
     <TR>
-        <TH>HOME LIGHT</TH>
-        <TH>SEARCH LIGHT</TH>
-        <TH>PROFILE LIGHT</TH>
+        <TH style="text-align:center">HOME LIGHT</TH>
+        <TH style="text-align:center">SEARCH LIGHT</TH>
+        <TH style="text-align:center">PROFILE LIGHT</TH>
     </TR>
 	<TR>
 		<TD><img src="./screenshot/ig/ig-home-light.png" alt="Home-Light" width="200"/></TD> 
@@ -27,9 +44,9 @@
 ## DARK MODE WITH FLUTTER
 <TABLE BORDER>
     <TR>
-        <TH>HOME DARK</TH>
-        <TH>SEARCH DARK</TH>
-        <TH>PROFILE DARK</TH>
+        <TH style="text-align:center">HOME DARK</TH>
+        <TH style="text-align:center">SEARCH DARK</TH>
+        <TH style="text-align:center">PROFILE DARK</TH>
     </TR>
 	<TR>
 		<TD><img src="./screenshot/ig/ig-home-dark.png" alt="Home-Dark" width="200"/></TD> 
@@ -41,7 +58,7 @@
 ## HEART ANIMATION WHEN I LIKE IT
 <TABLE BORDER>
     <TR>
-        <TH>HEART ANIMATION</TH>
+        <TH style="text-align:center">HEART ANIMATION</TH>
     </TR>
 	<TR>
 		<TD><img src="./screenshot/ig/heart.gif" alt="Animation-Heart" width="200"/></TD>
@@ -62,8 +79,8 @@
 ## NIKE SHOES WITH FLUTTER
 <TABLE BORDER>
     <TR>
-        <TH>HOME NIKE SHOES</TH>
-        <TH>DETAIL NIKE SHOES</TH>
+        <TH style="text-align:center">HOME NIKE SHOES</TH>
+        <TH style="text-align:center">DETAIL NIKE SHOES</TH>
     </TR>
 	<TR>
 		<TD><img src="./screenshot/ns/home.png" alt="HomeNikeShoes" width="200"/></TD> 
@@ -83,8 +100,8 @@
 ## PARK HERE WITH FLUTTER
 <TABLE BORDER>
     <TR>
-        <TH>PARKING</TH>
-        <TH>REVIEW</TH>
+        <TH style="text-align:center">PARKING</TH>
+        <TH style="text-align:center">REVIEW</TH>
     </TR>
 	<TR>
 		<TD><img src="./screenshot/pk/pk-1.png" alt="Parking" width="200"/></TD> 
@@ -105,9 +122,9 @@
 ## SPACE CONCEPT WITH FLUTTER
 <TABLE BORDER>
     <TR>
-        <TH>ONBOARDING</TH>
-        <TH>ONBOARDING DONE</TH>
-        <TH>EXPLORATION</TH>
+        <TH style="text-align:center">ONBOARDING</TH>
+        <TH style="text-align:center">ONBOARDING DONE</TH>
+        <TH style="text-align:center">EXPLORATION</TH>
     </TR>
 	<TR>
 		<TD><img src="./screenshot/sp/sp-1.png" alt="Onboarding" width="200"/></TD> 
@@ -115,8 +132,8 @@
         <TD><img src="./screenshot/sp/sp-2.png" alt="Exploration" width="200"/></TD>
 	</TR>
     <TR>
-        <TH>PLANETS</TH>
-        <TH>DETAIL PLANET</TH>
+        <TH style="text-align:center">PLANETS</TH>
+        <TH style="text-align:center">DETAIL PLANET</TH>
     </TR>
 	<TR>
 		<TD><img src="./screenshot/sp/sp-3.png" alt="Onboarding" width="200"/></TD> 
@@ -137,10 +154,10 @@
 ## DIET FAST WITH FLUTTER
 <TABLE BORDER>
     <TR>
-        <TH>ONBOARDING</TH>
-        <TH>ONBOARDING DONE</TH>
-        <TH>LOGIN</TH>
-        <TH>ASK</TH>
+        <TH style="text-align:center">ONBOARDING</TH>
+        <TH style="text-align:center">ONBOARDING DONE</TH>
+        <TH style="text-align:center">LOGIN</TH>
+        <TH style="text-align:center">ASK</TH>
     </TR>
 	<TR>
 		<TD><img src="./screenshot/df/df-0.png" alt="Onboarding" width="200"/></TD> 
@@ -149,9 +166,9 @@
         <TD><img src="./screenshot/df/df-2.png" alt="Ask" width="200"/></TD>
 	</TR>
     <TR>
-        <TH>ASK DONE</TH>
-        <TH>HOME</TH>
-        <TH>DETAIL</TH>
+        <TH style="text-align:center">ASK DONE</TH>
+        <TH style="text-align:center">HOME</TH>
+        <TH style="text-align:center">DETAIL</TH>
     </TR>
 	<TR>
 		<TD><img src="./screenshot/df/df-3.png" alt="Ask Done" width="200"/></TD> 
@@ -171,16 +188,16 @@
 ## DIET FAST WITH FLUTTER
 <TABLE BORDER>
     <TR>
-        <TH>HOME</TH>
-        <TH>HOME 2</TH>
+        <TH style="text-align:center">HOME</TH>
+        <TH style="text-align:center">HOME 2</TH>
     </TR>
 	<TR>
 		<TD><img src="./screenshot/sc/sc-1.png" alt="Home" width="200"/></TD> 
 		<TD><img src="./screenshot/sc/sc-2.png" alt="Home 2" width="200"/></TD> 
 	</TR>
     <TR>
-        <TH>BUY 1</TH>
-        <TH>BUY 2</TH>
+        <TH style="text-align:center">BUY 1</TH>
+        <TH style="text-align:center">BUY 2</TH>
     </TR>
 	<TR>
 		<TD><img src="./screenshot/sc/sc-3.png" alt="Ask Done" width="200"/></TD> 
@@ -203,16 +220,16 @@
 ## APP RENT WITH FLUTTER
 <TABLE BORDER>
     <TR>
-        <TH>LOGIN</TH>
-        <TH>HOME</TH>
+        <TH style="text-align:center">LOGIN</TH>
+        <TH style="text-align:center">HOME</TH>
     </TR>
 	<TR>
 		<TD><img src="./screenshot/ar/ar-1.png" alt="Login" width="200"/></TD> 
 		<TD><img src="./screenshot/ar/ar-2.png" alt="Home" width="200"/></TD>
 	</TR>
     <TR>
-        <TH>DETAIL</TH>
-        <TH>PROFILE</TH>
+        <TH style="text-align:center">DETAIL</TH>
+        <TH style="text-align:center">PROFILE</TH>
     </TR>
 	<TR>
         <TD><img src="./screenshot/ar/ar-4.png" alt="Detail" width="200"/></TD>
@@ -232,8 +249,8 @@
 ## MUSIC PLAYER APP DARK MODE WITH FLUTTER
 <TABLE BORDER>
     <TR>
-        <TH>HOME</TH>
-        <TH>PLAYER</TH>
+        <TH style="text-align:center">HOME</TH>
+        <TH style="text-align:center">PLAYER</TH>
     </TR>
 	<TR>
 		<TD><img src="./screenshot/ms/ms-home.png" alt="Home" width="200"/></TD> 
@@ -256,9 +273,9 @@
 ## ECOMMERCE WITH FLUTTER
 <TABLE BORDER>
     <TR>
-        <TH>SPLASH</TH>
-        <TH>HOME</TH>
-        <TH>DETAIL</TH>
+        <TH style="text-align:center">SPLASH</TH>
+        <TH style="text-align:center">HOME</TH>
+        <TH style="text-align:center">DETAIL</TH>
     </TR>
 	<TR>
 		<TD><img src="./screenshot/ec/ec-1.png" alt="Splash" width="200"/></TD> 
@@ -266,8 +283,8 @@
 		<TD><img src="./screenshot/ec/ec-6.png" alt=Detail" width="200"/></TD> 
 	</TR>
     <TR>
-        <TH>CART</TH>
-        <TH>FILTER</TH>
+        <TH style="text-align:center">CART</TH>
+        <TH style="text-align:center">FILTER</TH>
     </TR>
 	<TR>
         <TD><img src="./screenshot/ec/ec-4.png" alt="Cart" width="200"/></TD>
@@ -288,9 +305,9 @@
 ## RADIO APP WITH FLUTTER
 <TABLE BORDER>
     <TR>
-        <TH>GET STARTED</TH>
-        <TH>SIGN UP</TH>
-        <TH>HOME 1</TH>
+        <TH style="text-align:center">GET STARTED</TH>
+        <TH style="text-align:center">SIGN UP</TH>
+        <TH style="text-align:center">HOME 1</TH>
     </TR>
 	<TR>
 		<TD><img src="./screenshot/ra/ra-1.png" alt="GetStarted" width="200"/></TD> 
@@ -298,8 +315,8 @@
 		<TD><img src="./screenshot/ra/ra-3.png" alt=Home1" width="200"/></TD> 
 	</TR>
     <TR>
-        <TH>HOME 2</TH>
-        <TH>DETAIL</TH>
+        <TH style="text-align:center">HOME 2</TH>
+        <TH style="text-align:center">DETAIL</TH>
     </TR>
 	<TR>
         <TD><img src="./screenshot/ra/ra-4.png" alt="Home2" width="200"/></TD>
@@ -320,16 +337,16 @@
 ## SALUD FINANCIERA WITH FLUTTER
 <TABLE BORDER>
     <TR>
-        <TH>SPLASH</TH>
-        <TH>ONBOARDING</TH>
+        <TH style="text-align:center">SPLASH</TH>
+        <TH style="text-align:center">ONBOARDING</TH>
     </TR>
 	<TR>
 		<TD><img src="./screenshot/sf/sf-1.png" alt="GetStarted" width="200"/></TD> 
 		<TD><img src="./screenshot/sf/sf-2.png" alt="SignUp" width="200"/></TD>
 	</TR>
     <TR>
-        <TH>HOME 1</TH>
-        <TH>HOME 2</TH>
+        <TH style="text-align:center">HOME 1</TH>
+        <TH style="text-align:center">HOME 2</TH>
     </TR>
 	<TR>
 		<TD><img src="./screenshot/sf/sf-3.png" alt=Detail" width="200"/></TD> 
@@ -350,7 +367,7 @@
 ## LINKEDIN REDESIGN WITH FLUTTER
 <TABLE BORDER>
     <TR>
-        <TH>HOME</TH>
+        <TH style="text-align:center">HOME</TH>
     </TR>
 	<TR>
 		<TD><img src="./screenshot/lk/lk-1.png" alt="GetStarted" width="200"/></TD>  
