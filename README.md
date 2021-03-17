@@ -359,10 +359,10 @@
 
 <img src="./screenshot/lk/lk.png" alt="Inspiration" width="400"/>
 
-### CONTACT IRFAN KURNIAWAN
-- [Behance](https://www.behance.net/irfanuriawan/moodboards)
-- [Dribbble](https://dribbble.com/irfanuriawan)
-- [Instagram](https://www.instagram.com/irfanuriawan/)
+### CONTACT IRFAN FANAN
+- [Behance](https://www.instagram.com/irfanfanen)
+- [Dribbble](https://dribbble.com/irfanfanen)
+- [Instagram](https://www.instagram.com/irfanfanen)
 
 ## LINKEDIN REDESIGN WITH FLUTTER
 <TABLE BORDER>
