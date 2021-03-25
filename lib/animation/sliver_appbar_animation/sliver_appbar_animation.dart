@@ -27,6 +27,7 @@ class MyAppBar extends StatelessWidget {
       expandedHeight: MediaQuery.of(context).size.height * .4,
       actions: [IconButton(icon: Icon(Icons.share), onPressed: () {})],
       flexibleSpace: FlexibleSpaceBar(
+        stretchModes: [StretchMode.zoomBackground],
         background: Image.asset('assets/images/supercines/avenger-poster.png', fit: BoxFit.cover),
       ),
     );
