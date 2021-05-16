@@ -15,6 +15,9 @@
 
 ### [INSPIRATION MOTION LOADING](https://www.youtube.com/watch?v=jqFo80P92jw)
 
+## CHALLENGES
+### [NAVIGATION BAR ANIMATION](https://github.com/br-programmer/widget_challenge)
+- Using Clean Architecture and Riverpod - CI (GITHUT-ACTIONS)
 
 ## APPS
 ## 01 - INSTAGRAM REDESING BY MAURICIO LOPEZ
